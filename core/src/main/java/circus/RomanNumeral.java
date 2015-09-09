@@ -5,11 +5,14 @@ package circus;// From: http://stackoverflow.com/questions/12967896/converting-i
  * a Roman numeral in this range.  The function toString() will return a
  * standardized Roman numeral representation of the number.  The function
  * toInt() will return the number as a value of type int.
+ * 
+ * davstie small add for test
  */
 public class RomanNumeral {
 
     private final int num;   // The number represented by this Roman numeral.
-
+    private final int test; // only for workshop test 
+    
          /* The following arrays are used by the toString() function to construct
             the standard Roman numeral representation of the number.  For each i,
             the number numbers[i] is represented by the corresponding string, letters[i].
