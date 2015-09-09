@@ -11,7 +11,6 @@ package circus;// From: http://stackoverflow.com/questions/12967896/converting-i
 public class RomanNumeral {
 
     private final int num;   // The number represented by this Roman numeral.
-    private final int test; // only for workshop test 
     
          /* The following arrays are used by the toString() function to construct
             the standard Roman numeral representation of the number.  For each i,
